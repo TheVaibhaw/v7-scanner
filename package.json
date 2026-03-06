@@ -1,0 +1,53 @@
+{
+    "name": "v7-scanner",
+    "version": "2.0.0",
+    "description": "Lightning-fast, zero-dependency static analysis tool for detecting security vulnerabilities, SQL injections, XSS risks, and common code bugs.",
+    "main": "src/index.js",
+    "bin": {
+        "v7-scanner": "./bin/v7-scanner.js"
+    },
+    "scripts": {
+        "test": "node test/run.js"
+    },
+    "keywords": [
+        "security-scanner",
+        "static-analysis",
+        "linter",
+        "vulnerability-scanner",
+        "bug-finder",
+        "xss-detection",
+        "sql-injection-scanner",
+        "zero-dependency",
+        "fast-linter",
+        "code-quality",
+        "javascript-scanner",
+        "typescript-scanner",
+        "html-scanner",
+        "eval-detection",
+        "secret-scanner",
+        "code-checker",
+        "v7-scanner",
+        "v7scanner",
+        "ast-analyzer",
+        "security-audit"
+    ],
+    "author": {
+        "name": "TheVaibhaw",
+        "url": "https://www.vaibhawkumarparashar.in"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TheVaibhaw/v7-scanner.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "files": [
+        "src",
+        "bin",
+        "README.md",
+        "LICENSE",
+        "SECURITY.md"
+    ]
+}
